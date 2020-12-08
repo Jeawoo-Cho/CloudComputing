@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>전철 시간표 검색 사이트</title>
+</head>
+
+<body>
+	<form action="/post" method="post">
+		<p>전철역 시간표 검색 (전철역 이름만 입력 EX : 용산역 >> 용산)</p>
+		<p>전철역명 : <input type="text" id="input" name="input"></p>
+		<p> <input type="radio" name="chk_day" value="01" checked="checked">평일 <input type="radio" name="chk_day" value="02">토요일 <input type="radio" name="chk_day" value="03">일요일</p>
+		<p> <input type="radio" name="chk_info" value="U" checked="checked">상행 <input type="radio" name="chk_info" value="D">하행</p>
+		<p> <input type="submit" value="시간표검색"/></p>
+	</form>
+</body>
+</html>
